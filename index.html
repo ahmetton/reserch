@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ملتقى البحث العلمي</title>
+  <meta name="description" content="صفحة عربية منظّمة وروابط مصنّفة لمحاضرات ودورات وندوات على يوتيوب في البحث العلمي واللغة العربية وأصول الفقه وقضايا فكرية." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: "Cairo", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .link-card:hover .yt-icon { transform: scale(1.1); }
+  </style>
+</head>
+<body class="bg-zinc-50 text-zinc-800">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/80 border-b border-zinc-200">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center gap-4">
+      <svg class="yt-icon w-7 h-7 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.615 3.184A3.002 3.002 0 0 1 21.75 5.3c.675 2.512.675 7.75.675 7.75s0 5.238-.675 7.75a3.002 3.002 0 0 1-2.135 2.116C17.1 23.6 12 23.6 12 23.6s-5.1 0-7.615-.684A3.002 3.002 0 0 1 2.25 20.8C1.575 18.288 1.575 13.05 1.575 13.05s0-5.238.675-7.75A3.002 3.002 0 0 1 4.385 3.184C6.9 2.5 12 2.5 12 2.5s5.1 0 7.615.684ZM10 8.5v8l7-4-7-4Z"/></svg>
+      <div class="flex-1">
+        <h1 class="text-xl md:text-2xl font-extrabold">قائمة محاضرات يوتيوب مصنّفة</h1>
+        <p class="text-sm text-zinc-600">تجميع وروبط مصنّفة — جاهزة للنشر على GitHub Pages.</p>
+      </div>
+      <div class="hidden md:flex items-center gap-3">
+        <a href="#top" class="px-3 py-1.5 rounded-xl bg-zinc-900 text-white text-sm">أعلى الصفحة</a>
+        <button id="themeToggle" class="px-3 py-1.5 rounded-xl border text-sm">وضع داكن</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="max-w-6xl mx-auto px-4 py-8">
+    <!-- Tools Row -->
+    <div class="flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
+      <div class="relative flex-1">
+        <input id="search" type="search" placeholder="ابحث بالعنوان أو اسم المحاضر…" class="w-full rounded-2xl border border-zinc-300 bg-white px-5 py-3 pr-12 shadow-sm focus:outline-none focus:ring-2 focus:ring-zinc-900" />
+        <span class="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-400">⌕</span>
+      </div>
+      <nav class="flex flex-wrap gap-2 text-sm">
+        <a href="#cat-research" class="px-3 py-1.5 rounded-2xl bg-zinc-900 text-white">البحث العلمي</a>
+        <a href="#cat-arabic" class="px-3 py-1.5 rounded-2xl bg-zinc-100">اللغة العربية واللسانيات</a>
+        <a href="#cat-usul" class="px-3 py-1.5 rounded-2xl bg-zinc-100">أصول الفقه ودراسات إسلامية</a>
+        <a href="#cat-ideas" class="px-3 py-1.5 rounded-2xl bg-zinc-100">قضايا فكرية وثقافية</a>
+        <a href="#cat-academia" class="px-3 py-1.5 rounded-2xl bg-zinc-100">أكاديميا ومناقشات</a>
+      </nav>
+    </div>
+
+    <!-- Category: Research -->
+    <section id="cat-research" class="mt-10">
+      <h2 class="text-2xl font-bold mb-4">🔬 البحث العلمي ومناهجه وأدواته</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" data-category>
+        <!-- Items -->
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition group" href="https://www.youtube.com/watch?v=yh-zS_EemGg" target="_blank" rel="noopener">
+          <div class="flex items-start gap-3">
+            <svg class="yt-icon w-6 h-6 text-red-600" viewBox="0 0 24 24" fill="currentColor"><path d="M10 8.5v8l7-4-7-4Z"/></svg>
+            <div>
+              <h3 class="font-semibold leading-6">تخريج الأحاديث في الأبحاث العلمية</h3>
+              <p class="text-sm text-zinc-600">د. ماجد عليوي</p>
+            </div>
+          </div>
+        </a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition group" href="https://www.youtube.com/watch?v=IWYGjnV-1gI" target="_blank" rel="noopener">
+          <div class="flex items-start gap-3"><svg class="yt-icon w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M10 8.5v8l7-4-7-4Z"/></svg><div><h3 class="font-semibold">توظيف الذكاء الاصطناعي في البحث العلمي</h3><p class="text-sm text-zinc-600">الأستاذ المدرب هاني نوايا</p></div></div>
+        </a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition group" href="https://www.youtube.com/watch?v=IDPWqvzwm5s" target="_blank" rel="noopener">
+          <div class="flex items-start gap-3"><svg class="yt-icon w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M10 8.5v8l7-4-7-4Z"/></svg><div><h3 class="font-semibold">معوقات على طريق البحث العلمي وسبل تجاوزها</h3><p class="text-sm text-zinc-600">د. محمد كتوع</p></div></div>
+        </a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition group" href="https://www.youtube.com/watch?v=CY_hiEVFd_c" target="_blank" rel="noopener">
+          <div class="flex items-start gap-3"><svg class="yt-icon w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M10 8.5v8l7-4-7-4Z"/></svg><div><h3 class="font-semibold">استراتيجية اختيار عناوين الأطروحات والرسائل والأبحاث العلمية</h3><p class="text-sm text-zinc-600">د. عبد السلام البيطار</p></div></div>
+        </a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition group" href="https://www.youtube.com/watch?v=rLO2lxFIhoQ" target="_blank" rel="noopener">
+          <div class="flex items-start gap-3"><svg class="yt-icon w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M10 8.5v8l7-4-7-4Z"/></svg><div><h3 class="font-semibold">الاقتباس في البحث العلمي</h3><p class="text-sm text-zinc-600">د. أحمد الحامد</p></div></div>
+        </a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition group" href="https://www.youtube.com/watch?v=Sx9Vu9OxQUA" target="_blank" rel="noopener">
+          <div class="flex items-start gap-3"><svg class="yt-icon w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M10 8.5v8l7-4-7-4Z"/></svg><div><h3 class="font-semibold">توظيف الذكاء الصناعي في الأبحاث العلمية</h3><p class="text-sm text-zinc-600">د. عبد الرحمن الزراعي</p></div></div>
+        </a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition group" href="https://www.youtube.com/watch?v=CI4VwHa6rKI" target="_blank" rel="noopener">
+          <div class="flex items-start gap-3"><svg class="yt-icon w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M10 8.5v8l7-4-7-4Z"/></svg><div><h3 class="font-semibold">برمجيات العقيل في خدمة الباحثين — المحاضرة الأولى</h3><p class="text-sm text-zinc-600">د. سعود العقيل</p></div></div>
+        </a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition group" href="https://www.youtube.com/watch?v=oZ0KS7dDYRk" target="_blank" rel="noopener">
+          <div class="flex items-start gap-3"><svg class="yt-icon w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M10 8.5v8l7-4-7-4Z"/></svg><div><h3 class="font-semibold">برمجيات العقيل في خدمة الباحثين — المحاضرة الثانية</h3><p class="text-sm text-zinc-600">د. سعود العقيل</p></div></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Category: Arabic & Linguistics -->
+    <section id="cat-arabic" class="mt-12">
+      <h2 class="text-2xl font-bold mb-4">📚 اللغة العربية واللسانيات</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" data-category>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=WtvHmiygU04" target="_blank" rel="noopener"><h3 class="font-semibold">عثرات لغوية</h3><p class="text-sm text-zinc-600">د. أحمد العمر</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=O3XKi3jYnSA" target="_blank" rel="noopener"><h3 class="font-semibold">سقطات لغوية في الأبحاث الأكاديمية</h3><p class="text-sm text-zinc-600">د. أحمد العمر</p></a>
+
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=J7G7qVd3E-4" target="_blank" rel="noopener"><h3 class="font-semibold">مدخل إلى علوم اللغة العربية — الجلسة الأولى (الجزء الأول)</h3><p class="text-sm text-zinc-600">د. محمد عادل شوك</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=6eNKMGg4jhQ" target="_blank" rel="noopener"><h3 class="font-semibold">مدخل إلى علوم اللغة العربية — الجلسة الأولى (الجزء الثاني)</h3><p class="text-sm text-zinc-600">د. محمد عادل شوك</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=CmIHXERWqrg" target="_blank" rel="noopener"><h3 class="font-semibold">المحاضرة الرابعة من دورة: مدخل إلى علوم اللغة العربية</h3><p class="text-sm text-zinc-600">د. محمد عادل شوك</p></a>
+
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=OZbdLm1oGOM" target="_blank" rel="noopener"><h3 class="font-semibold">اللغويات: أسس علم الصرف — المحاضرة الثالثة</h3><p class="text-sm text-zinc-600">د. محمد عادل شوك</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=lvI6tEetVoA" target="_blank" rel="noopener"><h3 class="font-semibold">اللغويات: أساسيات الإعراب السليم — المحاضرة الخامسة</h3><p class="text-sm text-zinc-600">د. محمد عادل شوك</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=MeNTo0MKP9E" target="_blank" rel="noopener"><h3 class="font-semibold">اللغويات: النحو العربي بين الجملة والتحويل والنص — المحاضرة السادسة</h3><p class="text-sm text-zinc-600">د. محمد عادل شوك</p></a>
+
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=cxD31mGdl98" target="_blank" rel="noopener"><h3 class="font-semibold">أساسيات علم الأصوات — المحاضرة الأولى</h3><p class="text-sm text-zinc-600">أ.د. أحمد طه رضوان</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=6YMyn7Lf690" target="_blank" rel="noopener"><h3 class="font-semibold">أساسيات علم الأصوات — المحاضرة الثانية</h3><p class="text-sm text-zinc-600">أ.د. أحمد طه رضوان</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=TJcNiaa80IM" target="_blank" rel="noopener"><h3 class="font-semibold">أساسيات علم الأصوات — المحاضرة الثالثة</h3><p class="text-sm text-zinc-600">أ.د. أحمد طه رضوان</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=7OeXj4SXffo" target="_blank" rel="noopener"><h3 class="font-semibold">أساسيات علم الأصوات — المحاضرة الرابعة</h3><p class="text-sm text-zinc-600">أ.د. أحمد طه رضوان</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=49nJvcIFgqE" target="_blank" rel="noopener"><h3 class="font-semibold">أساسيات علم الأصوات — المحاضرة الخامسة (الجزء الأول)</h3><p class="text-sm text-zinc-600">أ.د. أحمد طه رضوان</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=YW4c1D2rU9k" target="_blank" rel="noopener"><h3 class="font-semibold">أساسيات علم الأصوات — المحاضرة الخامسة (الجزء الثاني)</h3><p class="text-sm text-zinc-600">أ.د. أحمد طه رضوان</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=p6DSMh9ivcI" target="_blank" rel="noopener"><h3 class="font-semibold">أساسيات علم الأصوات — المحاضرة السادسة</h3><p class="text-sm text-zinc-600">أ.د. أحمد طه رضوان</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=8SR4eSKbbBA" target="_blank" rel="noopener"><h3 class="font-semibold">أساسيات علم الأصوات — المحاضرة السابعة</h3><p class="text-sm text-zinc-600">أ.د. أحمد طه رضوان</p></a>
+      </div>
+    </section>
+
+    <!-- Category: Usul & Islamic Studies -->
+    <section id="cat-usul" class="mt-12">
+      <h2 class="text-2xl font-bold mb-4">🕌 أصول الفقه ودراسات إسلامية</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" data-category>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=uwzl2a_BB0M" target="_blank" rel="noopener"><h3 class="font-semibold">دورة أصول الفقه — شرح كتاب اللمع للشيرازي (المستوى الأول) — الجلسة الأولى</h3><p class="text-sm text-zinc-600">—</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=QEMzEzrQHM4" target="_blank" rel="noopener"><h3 class="font-semibold">التعليق الكافي على لمع الشيرازي — المحاضرة الثانية</h3><p class="text-sm text-zinc-600">أ.د. ميادة الحسن</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=p0QYXibsFPM" target="_blank" rel="noopener"><h3 class="font-semibold">التعليق الكافي على لمع الشيرازي — المحاضرة الثالثة</h3><p class="text-sm text-zinc-600">أ.د. ميادة الحسن</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=JbHs00MFyr8" target="_blank" rel="noopener"><h3 class="font-semibold">التعليق الكافي على لمع الشيرازي — المحاضرة الرابعة</h3><p class="text-sm text-zinc-600">أ.د. ميادة الحسن</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=eRUVjBWdcgg" target="_blank" rel="noopener"><h3 class="font-semibold">التعليق الكافي على لمع الشيرازي — المحاضرة الخامسة</h3><p class="text-sm text-zinc-600">أ.د. ميادة الحسن</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=z15MX8IDoj0" target="_blank" rel="noopener"><h3 class="font-semibold">التعليق الكافي على لمع الشيرازي — المحاضرة السادسة</h3><p class="text-sm text-zinc-600">أ.د. ميادة الحسن</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=udmDquqUKrI" target="_blank" rel="noopener"><h3 class="font-semibold">التعليق الكافي على لمع الشيرازي — المحاضرة السابعة</h3><p class="text-sm text-zinc-600">أ.د. ميادة الحسن</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=rAWXBS7NZ-0" target="_blank" rel="noopener"><h3 class="font-semibold">فقه الاختلاف وأدب الخلاف</h3><p class="text-sm text-zinc-600">د. ياسين علوش</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=nMJhmJDqoJc" target="_blank" rel="noopener"><h3 class="font-semibold">فقه الواقع وأولويات المرحلة — ندوة</h3><p class="text-sm text-zinc-600">د. أنس عيروط · د. ياسين علوش — يديرها د. أحمد زيدان</p></a>
+      </div>
+    </section>
+
+    <!-- Category: Ideas & Culture -->
+    <section id="cat-ideas" class="mt-12">
+      <h2 class="text-2xl font-bold mb-4">💡 قضايا فكرية وثقافية</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" data-category>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=v3Zp2eWquiw&pp=0gcJCa0JAYcqIYzv" target="_blank" rel="noopener"><h3 class="font-semibold">خطر العلمانية على الثورة السورية</h3><p class="text-sm text-zinc-600">د. أحمد الطعان</p></a>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=rIkSFGJ9Bt4" target="_blank" rel="noopener"><h3 class="font-semibold">ندوة: أدب الأطفال اليوم — إبداعًا وبحثًا</h3><p class="text-sm text-zinc-600">يقدمها د. أحمد صوان — يديرها الباحث محمد الحجي</p></a>
+      </div>
+    </section>
+
+    <!-- Category: Academia -->
+    <section id="cat-academia" class="mt-12">
+      <h2 class="text-2xl font-bold mb-4">🎓 أكاديميا ومناقشات</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" data-category>
+        <a class="link-card block p-4 rounded-2xl border bg-white shadow-sm hover:shadow-md transition" href="https://www.youtube.com/watch?v=LluzE6rNKY0&pp=0gcJCa0JAYcqIYzv" target="_blank" rel="noopener"><h3 class="font-semibold">مناقشة رسالة الماجستير — الباحث علي العيسى</h3><p class="text-sm text-zinc-600">—</p></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-16 pt-8 border-t border-zinc-200 text-sm text-zinc-600">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+        <p>آخر تحديث: <span id="updated"></span></p>
+        <p>أُنشئت هذه الصفحة لأغراض التعليم والتنظيم. جميع الحقوق لأصحاب المحتوى على يوتيوب.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Last updated date
+    document.getElementById('updated').textContent = new Date().toLocaleDateString('ar-EG', { year: 'numeric', month: 'long', day: 'numeric' });
+
+    // Theme toggle
+    const toggle = document.getElementById('themeToggle');
+    const applyTheme = () => {
+      const dark = localStorage.getItem('prefers-dark') === 'true';
+      document.documentElement.classList.toggle('dark', dark);
+      document.body.classList.toggle('bg-zinc-900', dark);
+      document.body.classList.toggle('text-zinc-100', dark);
+      toggle.textContent = dark ? 'وضع فاتح' : 'وضع داكن';
+    };
+    toggle?.addEventListener('click', () => {
+      const curr = localStorage.getItem('prefers-dark') === 'true';
+      localStorage.setItem('prefers-dark', (!curr).toString());
+      applyTheme();
+    });
+    applyTheme();
+
+    // Simple search filter
+    const searchInput = document.getElementById('search');
+    const sections = document.querySelectorAll('[data-category]');
+    searchInput.addEventListener('input', (e) => {
+      const q = e.target.value.trim().toLowerCase();
+      sections.forEach(sec => {
+        sec.querySelectorAll('.link-card').forEach(card => {
+          const text = card.textContent.toLowerCase();
+          card.style.display = text.includes(q) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
